@@ -1,0 +1,72 @@
+[2018-10-05 18:59 Europe/Berlin] Can't connect to PayPal to validate IPN message: Could not resolve host: www.paypal.com
+[2018-10-05 18:59 Europe/Berlin] Can't connect to PayPal to validate IPN message: Could not resolve host: www.paypal.com
+[2018-10-05 19:01 Europe/Berlin] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 20
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate
+[2018-10-05 19:01 Europe/Berlin] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+HTTP_X_PP_AZ_LOCATOR: dcg12.slc
+Paypal-Debug-Id: 2193fecb458ce
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-b-origin-www-1.paypal.com
+X-EdgeConnect-MidMile-RTT: 29
+X-EdgeConnect-Origin-MEX-Latency: 707
+Date: Fri, 05 Oct 2018 17:01:44 GMT
+Content-Length: 7
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=8TbIpIPkIBP2ryDLTJl_i-uUqm4FAz1nRX-msD0ds2HyLCUn4uuY89Mp552CzloUviwhz3-z2TGrKkegdii2Ft9P5F-IyS1KSsb07hCZ6bydOMFuV_DeEyFY6PzZQx9StOkFCm66VqlPk6mmwHZPEjAATwoMe7VP_Q0QrDvF33REw8RBmhdx5I8In6FwpKYBo1hYrjqOW4arcW_eg1tBGdh28c7PQH_-S1y-ofU09iiarCgV2jemHYnIhWN3g3-z-ThIrgKp5xq0-RdzSIDIGg9hfUlR5DgNDPVdL7iWb350n8bzuGS0XWpMjUPYeYx1hFOPmyMbGxvV5Te9b6bayXuS_TsFuaK3uEW-a9HgsSI6A-5VHYiJbAe-nXA_fBadQQYwjPFJocBhkauxy8mrZbGm8OZYY8IU6xA3iCwb2CmtPmyl0hrYBPT3R8a; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 02-Oct-2028 17:01:44 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 04-Oct-2020 17:01:44 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=name%3DLIVE6.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D4170757979%26HTTP_X_PP_AZ_LOCATOR%3Ddcg12.slc; Expires=Fri, 05 Oct 2018 17:31:44 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: AKDC=slc-b-origin-www-1.paypal.com; expires=Fri, 05-Oct-2018 17:31:44 GMT; path=/; secure
+Set-Cookie: akavpau_ppsd=1538759504~id=78bcbbe2aebabbc48b408050cb217b82; Domain=www.paypal.com; Path=/; Secure; HttpOnly
+Strict-Transport-Security: max-age=63072000
+
+INVALID
+[2018-10-05 19:01 Europe/Berlin] Invalid IPN: cmd=_notify-validate
+[2018-10-05 19:02 Europe/Berlin] Can't connect to PayPal to validate IPN message: Failed to connect to www.paypal.com port 443: Timed out
+[2018-10-05 19:03 Europe/Berlin] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 20
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate
+[2018-10-05 19:03 Europe/Berlin] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+HTTP_X_PP_AZ_LOCATOR: dcg11.slc
+Paypal-Debug-Id: cfbae678e544f
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-b-origin-www-1.paypal.com
+X-EdgeConnect-MidMile-RTT: 35
+X-EdgeConnect-Origin-MEX-Latency: 667
+Date: Fri, 05 Oct 2018 17:03:24 GMT
+Content-Length: 7
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=GHlzJWjZ4tZZYcq8KmFPkdVPrvhztz4ETVKz7fXXF2fdVBKh70DfWhHPR_Fxzwa0YlXP2tTS-OZb1fAU4LXaeLhPdCMA2lLCOElJYuNuMpHq_VxQdtZG0W-HTlJjJM48uFPdIa0XVGbNAlobIo_NYs_cCjVsYD5bwl7MijBSpNyWrjCHkewHBfd8i_J7SUj95j1xyq43Am-m6lY5mlxi1z6fI63ArZ06l9AjhwWXOne0rJKy4azjkL_0yeXnV1TctCwZjDrYw9EqoRr1syUgnd5WRMShbxr5zVvJ_aoUDueeyPDwbevy07Pdfxyyhr5p4AtdOS3m_c79S1j1jNK6VsRxPToKzKZUCW_bWb9I3hU7UxPFPsKIcvy2kDGTPzYYy58jcw7q_auNmKxntWc6Psh0A9qnUd0tIG4l21pv-vDhAkTV0mWkNGXPPeS; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 02-Oct-2028 17:03:24 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 04-Oct-2020 17:03:24 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=name%3DLIVE6.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1536800603%26HTTP_X_PP_AZ_LOCATOR%3Ddcg11.slc; Expires=Fri, 05 Oct 2018 17:33:24 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: AKDC=slc-b-origin-www-1.paypal.com; expires=Fri, 05-Oct-2018 17:33:24 GMT; path=/; secure
+Set-Cookie: akavpau_ppsd=1538759604~id=939c6be9c10aa4d0cf75c034b6fc721c; Domain=www.paypal.com; Path=/; Secure; HttpOnly
+Strict-Transport-Security: max-age=63072000
+
+INVALID
+[2018-10-05 19:03 Europe/Berlin] Invalid IPN: cmd=_notify-validate
+[2018-10-05 21:44 Europe/Berlin] Can't connect to PayPal to validate IPN message: SSL: no alternative certificate subject name matches target host name 'www.paywithpaytm.com'
